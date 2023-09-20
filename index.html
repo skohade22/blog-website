@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <!--Added Google Font Roberto-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <!--Added Font Awesome cdn Libraries-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+   <!--Header starts here-->
+   <header id="blog-header">
+        <figure class="logo-figure">
+            <i class="fab fa-autoprefixer logo"></i>
+        </figure>
+
+        <!--Adding the Menu Icon-->
+        <i class="fas fa-bars fa-4x" id="menubar_icon"></i>
+
+        <nav id="menu-icon" class="hidden">
+            <ul>
+                <li><a href="index.html" class="nav__link">Home</a></li>
+                <li><a href="#blog-about" class="nav__link">About</a></li>
+                <li><a href="#archieves" class="nav__link">Archeive</a></li>
+                <li><a href="#blog-posts" class="nav__link">Blog Posts</a></li>
+                <li><a href="#contact-section" class="nav__link">Contact</a></li>
+            </ul>
+        </nav>
+   </header>
+   <!--Header ends here-->
+
+    <main>
+        <!--Blog-Banner section starts here-->
+        <section id="blog-banner-section" class="banner">
+            <article>
+                <h1 class="banner__heading">Web Development</h1>
+                <p class="banner__description text-justify">I believe web development is always fun. We should learn web development for a bright career. I have started learning web development 2 years ago and still learning. I started with HTML, CSS, JavaScript and now I am learning node.js. I must say web development demands more patience and consistency.</p>
+            </article>
+            <aside>
+                <img src="./images/blogimg1.jpg" alt="Blog Image" class="banner__img">
+            </aside>
+        </section>
+        <!--Blog-Banner section ends here-->
+
+        <!--About Me section starts here-->
+        <section id="blog-about" class="section-center">
+            <h2 class="section-heading text-white">About Me</h2>
+            <div class="cards">
+                <div class="card">
+                    <h3 class="card__header">Personal Blog</h3>
+                    <p class="card__description text-justify">This type of blog usually works like an online diary where the blogger shares opinions, often not aiming to reach a target audience or sell an item. Personal blogs can discuss various subjects, from family events and self-reflection to work projects.</p>
+                    <button class="btn card__btn">Read More</button>
+                </div>   
+                <div class="card">
+                    <h3 class="card__header">Multimedia Blog</h3>
+                    <p class="card__description text-justify">It uses a blog format but publishes multimedia content, like videos and podcasts, instead of written posts. It also usually includes the video or podcast’s summary, table of contents, and essential quotes.</p>
+                    <button class="btn card__btn">Read More</button>
+                </div> 
+                <div class="card">
+                    <h3 class="card__header">Business Blog</h3>
+                    <p class="card__description text-justify">Its primary purpose is publishing content relevant to a company’s industry or updating the target market regarding any changes within its business. It may be a section on a company website or an independent site.</p>
+                    <button class="btn card__btn">Read More</button>
+                </div>  
+            </div>
+        </section>
+        <!--About Me section ends here-->
+
+        <!--Archeive section starts here-->
+        <section id="archieves">
+            <h2 class="section-heading">Archieves</h2>
+            <div class="archeives-container">
+                <ul class="archeives__lists">
+                    <li class="archeives__list"><img src="./images/image1.jpg" alt="Image1" class="archeives__img"></li>
+                    <li class="archeives__list"><img src="./images/image2.jpg" alt="Image2" class="archeives__img"></li>
+                    <li class="archeives__list"><img src="./images/image3.jpg" alt="Image3" class="archeives__img"></li>
+                    <li class="archeives__list"><img src="./images/image4.jpg" alt="Image4" class="archeives__img"></li>
+                </ul>
+            </div>
+        </section>
+        <!--Archeive  section ends here-->
+
+        <!--Blog Post section starts here-->
+        <section id="blog-posts" class="section-center">
+            <h2 class="section-heading">Blog Posts</h2>
+            <div class="blog-posts" class="section-center">
+                <div class="blog-post">
+                    <aside class="blog-post__aside">
+                        <image src="./images/fitness.jpg" alt="Fitness Blog" class="blog-post__img">
+                    </aside>
+                    <article class="blog-post__content">
+                        <h2 class="blog-post__heading">Belly Fat Loss</h2>
+                        <h3 class="blog-post__sub-heading">Lift Weight</h3>
+                        <p class="blog-post__description">
+                            Adding even moderate strength training to aerobic exercise helps build lean muscle mass, which causes you to burn more calories throughout the entire day, both at rest and during exercise.
+                        </p>
+                        <button class="btn blog-post__btn">Learn More</button>
+                    </article>
+                </div>
+                <div class="blog-post">
+                    <aside class="blog-post__aside">
+                        <image src="./images/travel.jpg" alt="Travel Blog" class="blog-post__img">
+                    </aside>
+                    <article class="blog-post__content">
+                        <h2 class="blog-post__heading">Foreign Countries</h2>
+                        <h3 class="blog-post__sub-heading">France</h3>
+                        <p class="blog-post__description">
+                            Woke up to beautiful sunny skies. After breakfast we packed our bags then headed out for a short walk while waiting for our luggage to be picked up And delivered to the parking area outside of the walls. It was quite a unique experience staying in the walled city overnight. During the day it is bustling with activity, but is a whole different scene at night. The streets get very quiet, and you can almost imagine the sentries making their rounds with their torch lights.
+                        </p>
+                        <button class="btn blog-post__btn">Learn More</button>
+                    </article>
+                </div>
+                <div class="blog-post">
+                    <aside class="blog-post__aside">
+                        <image src="./images/beauty.jpg" alt="Beauty Blog" class="blog-post__img">
+                    </aside>
+                    <article class="blog-post__content">
+                        <h2 class="blog-post__heading">Bodycare</h2>
+                        <h3 class="blog-post__sub-heading">Olay Collagen Body Lotion</h3>
+                        <p class="blog-post__description">
+                            This was a nice lightweight lotion that sank in quickly and moisturised well. I have other body lotions I prefer the scent of and that are more affordable so not a repurchase for me!
+                        </p>
+                        <button class="btn blog-post__btn">Learn More</button>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <!--Blog Pos section ends here-->
+
+        <!--Contact Me section starts here-->
+        <section id="contact-section" class="section-center">
+            <h2 class="section-heading text-white">Contact Me</h2>
+            <form>
+                <div class="form-control">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" autocomplete="name" required>
+                </div>
+                <div class="form-control">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" autocomplete="name" required>
+                </div>
+                <div class="form-control">
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message"></textarea>
+                </div>
+                <div class="form-control form-btn-field">
+                    <button class="btn contact__btn">Submit</button>
+                </div>
+            </form>
+        </section>
+                
+        <!--Contact Me section ends here-->
+    </main>
+
+    <!--Footer section starts here-->
+    <footer class="footer">
+        <p class="copyright__text">
+            Copyright &copy; by Shivani Kohade. All rights reserved
+        </p>
+        <nav class="footer__nav">
+            <a href="#blog-banner-section" class="footer__link">
+                <i class="fa fa-home footer__icon"></i>
+            </a>
+            <a href="https://www.facebook.com/" target="_blank" class="footer__link">
+                <i class="fab fa-facebook footer__icon"></i>
+            </a>
+            <a href="https://www.youtube.com/" target="_blank" class="footer__link">
+                <i class="fab fa-youtube footer__icon"></i>
+            </a>
+            <a href="https://www.linkedin.com/" target="_blank" class="footer__link">
+                <i class="fab fa-linkedin-in footer__icon"></i>
+            </a>
+            <a href="https://github.com/" target="_blank" class="footer__link">
+                <i class="fab fa-github footer__icon"></i>
+            </a>
+        </nav>
+    </footer>
+    <!--Footer section ends here-->
+
+    <!--Linking the JavaScript Code-->
+    <script src="./index.js"></script>
+</body>
+</html>
